@@ -1,11 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Acceuil from '../views/Acceuil.vue'
+import sideBar from '../components/layout/sideBar.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'acceuil',
-    component: Acceuil
+    name: 'sideBar',
+    component: sideBar
   }
 ]
 
